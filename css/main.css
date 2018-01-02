@@ -1,0 +1,199 @@
+/*CLASES REUTILIZABLES*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  line-height: 1.71429;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.container {
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.container:before, .container:after {
+  content: " ";
+  display: table;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container:after {
+  clear: both;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.m-0 {
+  margin: 0px;
+}
+
+a {
+  color: #373B47;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #E95853;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+/*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
+header {
+  background-color: white;
+  height: 98px;
+  position: fixed;
+  width: 100%;
+}
+
+footer {
+  background-color: #373B47;
+  height: 60px;
+}
+
+footer > p {
+  line-height: 60px;
+}
+
+#applogo {
+  margin-right: 11%;
+  margin-top: 15px;
+}
+
+#applogo > img {
+  height: 70px;
+  width: 70px;
+}
+
+#header_menu {
+  margin-left: 11%;
+  margin-top: 35px;
+}
+
+#header_menu > a {
+  font-weight: 900;
+  margin: 10px 20px;
+}
+
+#section_1 {
+  background-color: black;
+  height: 633px;
+  padding-top: 98px;
+  width: 100%;
+}
+
+#section_1 > div {
+  background-image: url("../assets/images/bg-home.jpg");
+  background-size: 100%;
+  height: 535px;
+  width: 100%;
+}
+
+#section_1 > div > h2 {
+  font-size: 23px;
+  line-height: 185px;
+}
+
+#section_1 > div > h1 {
+  font-size: 50px;
+}
+
+#section_1 > div > a {
+  background-color: #2ECC71;
+  color: white;
+  font-size: 14px;
+  line-height: 160px;
+  padding: 15px 20px;
+}
+
+#section_2 {
+  background-color: #F17C72;
+}
+
+#section_2 > div > div {
+  display: inline-block;
+  margin: 35px 55px 70px;
+}
+
+#section_3 > div > div {
+  display: inline-block;
+  margin: 0px 32px 50px;
+}
+
+#section_3 > div > div > img {
+  height: 250px;
+  width: 300px;
+}
+
+.color-white {
+  color: white;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.font-weight {
+  font-weight: bolder;
+}
+
+.hero-photo {
+  margin: 20px;
+  width: 70%;
+}
+
+.line-height40 {
+  line-height: 40px;
+}
+
+.photo-services {
+  height: 200px;
+  margin: 20px;
+  width: 200px;
+}
+
+.subtitle {
+  font-size: 32px;
+  letter-spacing: 2px;
+  padding-top: 70px;
+}
+
+.text-center {
+  text-align: center;
+}
